@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Array Test",
+      "setup": "cmake .; make ArrayTest",
+      "run": "./ArrayTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 45
+    },
+    {
+      "name": "Linked Test",
+      "setup": "cmake .; make LinkedTest",
+      "run": "./LinkedTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 45
+    }
+  ]
+}
