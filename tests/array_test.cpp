@@ -69,7 +69,7 @@ TEST_CASE("Should throw an error with a message of 'List is Full.'") {
 
     try {
         list.PutItem(101);
-        REQUIRE_FALSE(FALSE);
+        REQUIRE_FALSE(false);
     } catch (ArrayADTList<int>::FullError& error) {
         REQUIRE(strcmp(error.message(), "List is full.") == 0);
     }
